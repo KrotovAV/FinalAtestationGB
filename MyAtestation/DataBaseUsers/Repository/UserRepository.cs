@@ -55,4 +55,19 @@ public class UserRepository: IUserRepository {
             }
         }
     }
+
+    public bool UserExists(string name)
+    {
+        using (var context = new UserContext())
+        {
+            var user = context.Users.FirstOrDefault(x => x.Name == name);
+
+            if (user != null)
+            {
+                return true;
+            }
+            throw new Exception("User not found");
+        }
+    }
+    
 }

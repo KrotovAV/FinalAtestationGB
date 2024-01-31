@@ -14,7 +14,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DataBaseMessage\DataBaseMessage.csproj" />
-    <ProjectReference Include="..\DataBaseUsers\DataBaseUsers.csproj" />
   </ItemGroup>
 
 </Project>

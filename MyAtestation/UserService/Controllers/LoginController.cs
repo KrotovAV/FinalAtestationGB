@@ -88,6 +88,16 @@ public class LoginController: ControllerBase {
         return Ok();
     }
 
+    [HttpPost]
+    [Route("CheckUser")]
+    public ActionResult<bool> CheckUser(string name)
+    {
+
+        var res = _userRepository.UserExists(name);
+        if (res == false)
+            return StatusCode(500);
+        return Ok();
+    }
 
     private string GenerateToken(UserModel user) {
         //var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));

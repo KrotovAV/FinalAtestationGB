@@ -1,5 +1,5 @@
-﻿using DataBaseUsers;
-using DataBaseUsers.Repository;
+﻿//using DataBaseUsers;
+//using DataBaseUsers.Repository;
 using DataBaseMessage;
 using DataBaseMessage.Repository;
 using MessageService.Model;
@@ -36,6 +36,9 @@ public class MessageController: ControllerBase {
         //var recever = _userRepository
         //    .Users
         //    .FirstOrDefault(reciver => reciver.Name == message.ReceiverName);
+
+        var sender = 1;
+        var recever = 1;
         if (sender!=null && recever!=null) {
             var messageId = _messageRepository.SendMessage(
                 message.Text,
