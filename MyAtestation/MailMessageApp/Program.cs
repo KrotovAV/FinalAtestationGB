@@ -1,4 +1,7 @@
 
+using Ocelot.DependencyInjection;
+using Ocelot.Middleware;
+
 namespace MailMessageApp
 {
     public class Program
@@ -7,21 +10,32 @@ namespace MailMessageApp
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
-
-            builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+
+            IConfiguration configuration = new ConfigurationBuilder()
+                                    .AddJsonFile("ocelot.json")
+                                    .Build();
+
+            builder.Services.AddOcelot(configuration);
+
+            builder.Services.AddSwaggerForOcelot(configuration);
+
+
+
+
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
+            
+            app.UseSwagger();
+
+            app.UseSwaggerForOcelotUI(opt =>
             {
-                app.UseSwagger();
-                app.UseSwaggerUI();
-            }
+                opt.PathToSwaggerGenerator = "/swagger/docs";
+
+            }).UseOcelot().Wait();
+
 
             app.UseHttpsRedirection();
 

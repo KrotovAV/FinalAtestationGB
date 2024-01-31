@@ -90,6 +90,7 @@ public class LoginController: ControllerBase {
 
     [HttpPost]
     [Route("CheckUser")]
+    [Authorize(Roles = "Adminstrator, User")]
     public ActionResult<bool> CheckUser(string name)
     {
 
