@@ -14,6 +14,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserService", "..\UserServi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBaseMessage", "..\DataBaseMessage\DataBaseMessage.csproj", "{77B69E61-EAAD-4466-ACA7-9DF9170AF148}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageService", "..\MessageService\MessageService.csproj", "{42802D14-2D9A-4E49-819B-C9A6A318FFF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,10 @@ Global
 		{77B69E61-EAAD-4466-ACA7-9DF9170AF148}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77B69E61-EAAD-4466-ACA7-9DF9170AF148}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77B69E61-EAAD-4466-ACA7-9DF9170AF148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42802D14-2D9A-4E49-819B-C9A6A318FFF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42802D14-2D9A-4E49-819B-C9A6A318FFF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42802D14-2D9A-4E49-819B-C9A6A318FFF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42802D14-2D9A-4E49-819B-C9A6A318FFF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
