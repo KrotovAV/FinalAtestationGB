@@ -1,11 +1,13 @@
 ﻿using System.Security.Cryptography;
 
 using System.Text;
+using AutoMapper;
 using DataBaseUsers.BD;
 
 namespace DataBaseUsers.Repository;
 
 public class UserRepository: IUserRepository {
+
     public void UserAdd(string name, string password, RoleId roleId) {
         using (var context = new UserContext()) {
             if (roleId == RoleId.Admin) {
@@ -56,6 +58,12 @@ public class UserRepository: IUserRepository {
         }
     }
 
+    public List<User> GetAllUsers()
+    {
+        using var context = new UserContext();
+        return context.Users.ToList();
+    }
+
     public bool UserExists(string name)
     {
         using (var context = new UserContext())
@@ -69,5 +77,33 @@ public class UserRepository: IUserRepository {
             throw new Exception("User not found");
         }
     }
-    
+
+    public void DeleteUser(string name)
+    {
+        using (var context = new UserContext())
+        {
+            var user = context.Users.FirstOrDefault(x => x.Name == name);
+
+            if (user == null)
+            {
+                throw new Exception("User not found");
+            }
+
+            if (user.Name == "admin")
+            {
+                throw new Exception("Admin cant del himself");
+            }
+
+            try
+            {
+                context.Users.Remove(user);
+                context.SaveChanges();
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+    }
+
 }

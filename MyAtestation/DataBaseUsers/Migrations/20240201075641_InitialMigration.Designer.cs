@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataBaseUsers.Migrations
 {
     [DbContext(typeof(UserContext))]
-    [Migration("20240130191159_InitialMigration")]
+    [Migration("20240201075641_InitialMigration")]
     partial class InitialMigration
     {
         /// <inheritdoc />

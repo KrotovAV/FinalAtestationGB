@@ -7010,6 +7010,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "AutoMapper >= 12.0.1",
       "DataBaseUsers >= 1.0.0",
       "MMLib.SwaggerForOcelot >= 7.0.1",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 7.0.1",
@@ -7061,6 +7062,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[12.0.1, )"
+          },
           "MMLib.SwaggerForOcelot": {
             "target": "Package",
             "version": "[7.0.1, )"

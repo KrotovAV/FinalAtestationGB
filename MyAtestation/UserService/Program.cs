@@ -9,6 +9,7 @@ using DataBaseUsers.BD;
 using DataBaseUsers.Repository;
 using System.Security.Cryptography;
 
+
 namespace UserService
 {
     public class Program
@@ -32,6 +33,8 @@ namespace UserService
             builder.Services.AddControllers();
             
             builder.Services.AddEndpointsApiExplorer();
+
+          
 
             builder.Services.AddTransient<IUserRepository, UserRepository>();
             builder.Services.AddTransient<IUserAuthenticationService, AuthenticationMock>();

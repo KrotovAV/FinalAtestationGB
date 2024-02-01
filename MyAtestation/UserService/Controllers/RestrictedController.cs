@@ -10,6 +10,15 @@ namespace UserService.Controllers;
 [ApiController]
 [Route("[controller]")]
 public class RestrictedController: ControllerBase {
+
+    private readonly IUserRepository _userRepository;
+
+    public RestrictedController(IUserRepository userRepository)
+    {
+        _userRepository = userRepository;
+    }
+
+
     [HttpGet]
     [Route("Admins")]
     [Authorize(Roles = "Adminstrator")]
@@ -26,6 +35,34 @@ public class RestrictedController: ControllerBase {
         return Ok($"Hi you are an {currentUser.Role}");
     }
 
+    [HttpGet]
+    [Route("AllUsers")]
+    public IActionResult GetAllUsers()
+    {
+        var allUsers = new UserRepository().GetAllUsers();
+        return Ok(allUsers);
+    }
+
+    [HttpPost]
+    [Route("CheckUser")]
+    [Authorize(Roles = "Adminstrator, User")]
+    public ActionResult<bool> CheckUser(string name)
+    {
+
+        var res = _userRepository.UserExists(name);
+        if (res == false)
+            return StatusCode(500);
+        return Ok();
+    }
+
+    [HttpDelete]
+    [Route("DeleteUser")]
+    [Authorize(Roles = "Adminstrator")]
+    public IActionResult DeleteUser(string name)
+    {
+        _userRepository.DeleteUser(name);
+        return Ok();
+    }
 
     private UserModel GetCurrentUser() {
         var identity = HttpContext.User.Identity as ClaimsIdentity;

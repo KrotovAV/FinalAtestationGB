@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "UserService/1.0.0": {
         "dependencies": {
+          "AutoMapper": "12.0.1",
           "DataBaseUsers": "1.0.0",
           "MMLib.SwaggerForOcelot": "7.0.1",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.1",
