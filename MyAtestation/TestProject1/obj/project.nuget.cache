@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wntFtnqT99Z31VmwjWdMAKCvW/pNOV5e9jmqBfcdGsHBrDXlUR47K3Oa1KCg4jyDuPo1Wfq9Q7seyD1eGbj8Lw==",
+  "dgSpecHash": "Zh58dMPn6sd371pZHTVi9vM0EM8VvF3slYlgDVjGoIz/mnFZlswamXkImUiXEeJ4eY3OBy7jCmEbp6WrI9tz2g==",
   "success": true,
   "projectFilePath": "D:\\GeekBrains\\My Git\\FinalAtestationGB\\MyAtestation\\TestProject1\\TestProject1.csproj",
   "expectedPackageFiles": [
@@ -88,6 +88,8 @@
     "C:\\Users\\10\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
     "C:\\Users\\10\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\10\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\10\\.nuget\\packages\\npgsql\\7.0.0\\npgsql.7.0.0.nupkg.sha512",
+    "C:\\Users\\10\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.0\\npgsql.entityframeworkcore.postgresql.7.0.0.nupkg.sha512",
     "C:\\Users\\10\\.nuget\\packages\\nuget.frameworks\\6.5.0\\nuget.frameworks.6.5.0.nupkg.sha512",
     "C:\\Users\\10\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
     "C:\\Users\\10\\.nuget\\packages\\nunit.analyzers\\3.6.1\\nunit.analyzers.3.6.1.nupkg.sha512",

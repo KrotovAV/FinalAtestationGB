@@ -29,6 +29,11 @@ public class UserContext: DbContext {
             new MySqlServerVersion(new Version(8, 0, 11)));
     }
 
+    //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    //    => optionsBuilder
+    //        .LogTo(Console.WriteLine)
+    //        .UseNpgsql("host=127.0.0.1;port=5432;Database=DataBaseUsers;Username=postgres;password=PgSQLavk");
+
     protected override void OnModelCreating(ModelBuilder modelBuilder) {
         modelBuilder.Entity<User>(entity =>
         {
