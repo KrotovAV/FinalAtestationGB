@@ -39,7 +39,6 @@ public class LoginController: ControllerBase {
         _userRepository = userRepository;
     }
 
-
     private static UserRole RoleIDToRole(RoleId roleId) {
         if (roleId == RoleId.Admin) return UserRole.Adminstrator;
 
