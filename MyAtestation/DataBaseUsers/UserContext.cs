@@ -24,15 +24,12 @@ public class UserContext: DbContext {
                     .SetBasePath(Directory.GetCurrentDirectory())
                     .Build();
 
+        //optionsBuilder.UseMySql(config.GetConnectionString("Connection"),
+        //    new MySqlServerVersion(new Version(8, 0, 11)));
 
-        optionsBuilder.UseMySql(config.GetConnectionString("Connection"),
-            new MySqlServerVersion(new Version(8, 0, 11)));
+        optionsBuilder.UseLazyLoadingProxies().
+                UseNpgsql(config.GetConnectionString("Connection"));
     }
-
-    //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    //    => optionsBuilder
-    //        .LogTo(Console.WriteLine)
-    //        .UseNpgsql("host=127.0.0.1;port=5432;Database=DataBaseUsers;Username=postgres;password=PgSQLavk");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder) {
         modelBuilder.Entity<User>(entity =>

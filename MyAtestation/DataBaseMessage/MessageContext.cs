@@ -22,9 +22,11 @@ public class MessageContext: DbContext {
                     .SetBasePath(Directory.GetCurrentDirectory())
                     .Build();
 
+        //optionsBuilder.UseMySql(config.GetConnectionString("Connection"),
+        //    new MySqlServerVersion(new Version(8, 0, 11)));
 
-        optionsBuilder.UseMySql(config.GetConnectionString("Connection"),
-            new MySqlServerVersion(new Version(8, 0, 11)));
+        optionsBuilder.UseLazyLoadingProxies().
+                UseNpgsql(config.GetConnectionString("Connection"));
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder) {
