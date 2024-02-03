@@ -194,3 +194,5 @@ D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\TestProject1\obj\Debug\net7.
 D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\TestProject1\bin\Debug\net7.0\Microsoft.DotNet.PlatformAbstractions.dll
 D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\TestProject1\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\TestProject1\bin\Debug\net7.0\Moq.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\TestProject1\bin\Debug\net7.0\Npgsql.dll
+D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\TestProject1\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

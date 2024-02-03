@@ -8,7 +8,7 @@ using Moq;
 
 namespace TestProject1
 {
-    public class Tests
+    public class UnitTest1
     {
         private MessageController _controllerMess;
         private Mock<IMessageRepository> _mockMessageRepository;
@@ -23,7 +23,7 @@ namespace TestProject1
             _controllerMess = new MessageController(null, _mockMessageRepository.Object);
 
             _userRepositoryMock = new Mock<IUserRepository>();
-           // _controllerUs = new LoginController(new ConfigurationManager(), _userRepositoryMock.Object);
+            _controllerUs = new LoginController(null, _userRepositoryMock.Object);
         }
 
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.188311688311688" branch-rate="0.0625" lines-covered="87" lines-valid="462" branches-covered="3" branches-valid="48" complexity="105" version="0" timestamp="1706825983">
+<coverage line-rate="0.339920948616601" branch-rate="0.0833333333333333" lines-covered="172" lines-valid="506" branches-covered="4" branches-valid="48" complexity="112" version="0" timestamp="1706962550">
   <sources>
     <source>D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\</source>
     <source>C:\</source>
@@ -76,15 +76,13 @@
                 <line number="21" hits="3" branch="false" />
                 <line number="22" hits="3" branch="false" />
                 <line number="23" hits="3" branch="false" />
-                <line number="26" hits="3" branch="false" />
-                <line number="27" hits="3" branch="false" />
                 <line number="28" hits="3" branch="false" />
+                <line number="29" hits="3" branch="false" />
+                <line number="30" hits="3" branch="false" />
               </lines>
             </method>
             <method name="OnModelCreating" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="30" hits="1" branch="false" />
-                <line number="31" hits="1" branch="false" />
                 <line number="32" hits="1" branch="false" />
                 <line number="33" hits="1" branch="false" />
                 <line number="34" hits="1" branch="false" />
@@ -95,8 +93,10 @@
                 <line number="39" hits="1" branch="false" />
                 <line number="40" hits="1" branch="false" />
                 <line number="41" hits="1" branch="false" />
-                <line number="42" hits="2" branch="false" />
+                <line number="42" hits="1" branch="false" />
                 <line number="43" hits="1" branch="false" />
+                <line number="44" hits="2" branch="false" />
+                <line number="45" hits="1" branch="false" />
               </lines>
             </method>
             <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -127,11 +127,9 @@
             <line number="21" hits="3" branch="false" />
             <line number="22" hits="3" branch="false" />
             <line number="23" hits="3" branch="false" />
-            <line number="26" hits="3" branch="false" />
-            <line number="27" hits="3" branch="false" />
             <line number="28" hits="3" branch="false" />
-            <line number="30" hits="1" branch="false" />
-            <line number="31" hits="1" branch="false" />
+            <line number="29" hits="3" branch="false" />
+            <line number="30" hits="3" branch="false" />
             <line number="32" hits="1" branch="false" />
             <line number="33" hits="1" branch="false" />
             <line number="34" hits="1" branch="false" />
@@ -142,8 +140,10 @@
             <line number="39" hits="1" branch="false" />
             <line number="40" hits="1" branch="false" />
             <line number="41" hits="1" branch="false" />
-            <line number="42" hits="2" branch="false" />
+            <line number="42" hits="1" branch="false" />
             <line number="43" hits="1" branch="false" />
+            <line number="44" hits="2" branch="false" />
+            <line number="45" hits="1" branch="false" />
           </lines>
         </class>
         <class name="DataBaseMessage.Program" filename="D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\DataBaseMessage\Program.cs" line-rate="0" branch-rate="0" complexity="2">
@@ -553,15 +553,13 @@
                 <line number="23" hits="0" branch="false" />
                 <line number="24" hits="0" branch="false" />
                 <line number="25" hits="0" branch="false" />
-                <line number="28" hits="0" branch="false" />
-                <line number="29" hits="0" branch="false" />
                 <line number="30" hits="0" branch="false" />
+                <line number="31" hits="0" branch="false" />
+                <line number="32" hits="0" branch="false" />
               </lines>
             </method>
             <method name="OnModelCreating" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="32" hits="0" branch="false" />
-                <line number="33" hits="0" branch="false" />
                 <line number="34" hits="0" branch="false" />
                 <line number="35" hits="0" branch="false" />
                 <line number="36" hits="0" branch="false" />
@@ -578,11 +576,11 @@
                 <line number="47" hits="0" branch="false" />
                 <line number="48" hits="0" branch="false" />
                 <line number="49" hits="0" branch="false" />
+                <line number="50" hits="0" branch="false" />
                 <line number="51" hits="0" branch="false" />
-                <line number="52" hits="0" branch="false" />
                 <line number="53" hits="0" branch="false" />
+                <line number="54" hits="0" branch="false" />
                 <line number="55" hits="0" branch="false" />
-                <line number="56" hits="0" branch="false" />
                 <line number="57" hits="0" branch="false" />
                 <line number="58" hits="0" branch="false" />
                 <line number="59" hits="0" branch="false" />
@@ -591,6 +589,8 @@
                 <line number="62" hits="0" branch="false" />
                 <line number="63" hits="0" branch="false" />
                 <line number="64" hits="0" branch="false" />
+                <line number="65" hits="0" branch="false" />
+                <line number="66" hits="0" branch="false" />
               </lines>
             </method>
             <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
@@ -622,11 +622,9 @@
             <line number="23" hits="0" branch="false" />
             <line number="24" hits="0" branch="false" />
             <line number="25" hits="0" branch="false" />
-            <line number="28" hits="0" branch="false" />
-            <line number="29" hits="0" branch="false" />
             <line number="30" hits="0" branch="false" />
+            <line number="31" hits="0" branch="false" />
             <line number="32" hits="0" branch="false" />
-            <line number="33" hits="0" branch="false" />
             <line number="34" hits="0" branch="false" />
             <line number="35" hits="0" branch="false" />
             <line number="36" hits="0" branch="false" />
@@ -643,11 +641,11 @@
             <line number="47" hits="0" branch="false" />
             <line number="48" hits="0" branch="false" />
             <line number="49" hits="0" branch="false" />
+            <line number="50" hits="0" branch="false" />
             <line number="51" hits="0" branch="false" />
-            <line number="52" hits="0" branch="false" />
             <line number="53" hits="0" branch="false" />
+            <line number="54" hits="0" branch="false" />
             <line number="55" hits="0" branch="false" />
-            <line number="56" hits="0" branch="false" />
             <line number="57" hits="0" branch="false" />
             <line number="58" hits="0" branch="false" />
             <line number="59" hits="0" branch="false" />
@@ -656,6 +654,8 @@
             <line number="62" hits="0" branch="false" />
             <line number="63" hits="0" branch="false" />
             <line number="64" hits="0" branch="false" />
+            <line number="65" hits="0" branch="false" />
+            <line number="66" hits="0" branch="false" />
           </lines>
         </class>
       </classes>
@@ -788,7 +788,7 @@
         </class>
       </classes>
     </package>
-    <package name="TestProject1" line-rate="0.884615384615385" branch-rate="1" complexity="6">
+    <package name="TestProject1" line-rate="0.985714285714286" branch-rate="1" complexity="13">
       <classes>
         <class name="AutoGeneratedProgram" filename="C:\Users\10\.nuget\packages\microsoft.net.test.sdk\17.7.1\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
@@ -802,7 +802,7 @@
             <line number="4" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="TestProject1.Tests" filename="D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\TestProject1\UnitTest1.cs" line-rate="0.92" branch-rate="1" complexity="5">
+        <class name="TestProject1.UnitTest1" filename="D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\TestProject1\UnitTest1.cs" line-rate="1" branch-rate="1" complexity="5">
           <methods>
             <method name="Setup" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -810,6 +810,7 @@
                 <line number="22" hits="4" branch="false" />
                 <line number="23" hits="4" branch="false" />
                 <line number="25" hits="4" branch="false" />
+                <line number="26" hits="4" branch="false" />
                 <line number="27" hits="4" branch="false" />
               </lines>
             </method>
@@ -840,13 +841,13 @@
                 <line number="72" hits="1" branch="false" />
               </lines>
             </method>
-            <method name="AddUser_Ok" signature="()" line-rate="0.6" branch-rate="1" complexity="1">
+            <method name="AddUser_Ok" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="76" hits="1" branch="false" />
                 <line number="78" hits="1" branch="false" />
                 <line number="81" hits="1" branch="false" />
-                <line number="84" hits="0" branch="false" />
-                <line number="86" hits="0" branch="false" />
+                <line number="84" hits="1" branch="false" />
+                <line number="86" hits="1" branch="false" />
               </lines>
             </method>
           </methods>
@@ -855,6 +856,7 @@
             <line number="22" hits="4" branch="false" />
             <line number="23" hits="4" branch="false" />
             <line number="25" hits="4" branch="false" />
+            <line number="26" hits="4" branch="false" />
             <line number="27" hits="4" branch="false" />
             <line number="35" hits="1" branch="false" />
             <line number="37" hits="1" branch="false" />
@@ -874,13 +876,133 @@
             <line number="76" hits="1" branch="false" />
             <line number="78" hits="1" branch="false" />
             <line number="81" hits="1" branch="false" />
-            <line number="84" hits="0" branch="false" />
-            <line number="86" hits="0" branch="false" />
+            <line number="84" hits="1" branch="false" />
+            <line number="86" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="TestProject1.UnitTests2" filename="D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\TestProject1\UnitTests2.cs" line-rate="1" branch-rate="1" complexity="7">
+          <methods>
+            <method name="Setup" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="6" branch="false" />
+                <line number="25" hits="6" branch="false" />
+                <line number="26" hits="6" branch="false" />
+                <line number="27" hits="6" branch="false" />
+              </lines>
+            </method>
+            <method name="AddAdmin_ok" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="31" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="AddAdmin_sameName_error" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="45" hits="1" branch="false" />
+                <line number="47" hits="1" branch="false" />
+                <line number="48" hits="1" branch="false" />
+                <line number="49" hits="1" branch="false" />
+                <line number="52" hits="1" branch="false" />
+                <line number="55" hits="1" branch="false" />
+                <line number="56" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="Login_Ok" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="60" hits="1" branch="false" />
+                <line number="62" hits="1" branch="false" />
+                <line number="63" hits="1" branch="false" />
+                <line number="64" hits="1" branch="false" />
+                <line number="67" hits="1" branch="false" />
+                <line number="70" hits="1" branch="false" />
+                <line number="71" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="Login_arror" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="75" hits="1" branch="false" />
+                <line number="77" hits="1" branch="false" />
+                <line number="78" hits="1" branch="false" />
+                <line number="79" hits="1" branch="false" />
+                <line number="82" hits="1" branch="false" />
+                <line number="85" hits="1" branch="false" />
+                <line number="86" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="AddUser_Ok" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="91" hits="1" branch="false" />
+                <line number="93" hits="1" branch="false" />
+                <line number="96" hits="1" branch="false" />
+                <line number="99" hits="1" branch="false" />
+                <line number="101" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="AddUser_error" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="105" hits="1" branch="false" />
+                <line number="107" hits="1" branch="false" />
+                <line number="108" hits="1" branch="false" />
+                <line number="109" hits="1" branch="false" />
+                <line number="112" hits="1" branch="false" />
+                <line number="115" hits="1" branch="false" />
+                <line number="116" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="24" hits="6" branch="false" />
+            <line number="25" hits="6" branch="false" />
+            <line number="26" hits="6" branch="false" />
+            <line number="27" hits="6" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="47" hits="1" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="49" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+            <line number="55" hits="1" branch="false" />
+            <line number="56" hits="1" branch="false" />
+            <line number="60" hits="1" branch="false" />
+            <line number="62" hits="1" branch="false" />
+            <line number="63" hits="1" branch="false" />
+            <line number="64" hits="1" branch="false" />
+            <line number="67" hits="1" branch="false" />
+            <line number="70" hits="1" branch="false" />
+            <line number="71" hits="1" branch="false" />
+            <line number="75" hits="1" branch="false" />
+            <line number="77" hits="1" branch="false" />
+            <line number="78" hits="1" branch="false" />
+            <line number="79" hits="1" branch="false" />
+            <line number="82" hits="1" branch="false" />
+            <line number="85" hits="1" branch="false" />
+            <line number="86" hits="1" branch="false" />
+            <line number="91" hits="1" branch="false" />
+            <line number="93" hits="1" branch="false" />
+            <line number="96" hits="1" branch="false" />
+            <line number="99" hits="1" branch="false" />
+            <line number="101" hits="1" branch="false" />
+            <line number="105" hits="1" branch="false" />
+            <line number="107" hits="1" branch="false" />
+            <line number="108" hits="1" branch="false" />
+            <line number="109" hits="1" branch="false" />
+            <line number="112" hits="1" branch="false" />
+            <line number="115" hits="1" branch="false" />
+            <line number="116" hits="1" branch="false" />
           </lines>
         </class>
       </classes>
     </package>
-    <package name="UserService" line-rate="0.0113636363636364" branch-rate="0" complexity="39">
+    <package name="UserService" line-rate="0.232954545454545" branch-rate="0.0454545454545455" complexity="39">
       <classes>
         <class name="UserService.AuthorizationModel.AuthenticationMock" filename="D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\AuthorizationModel\AuthenticationMock.cs" line-rate="0" branch-rate="0" complexity="8">
           <methods>
@@ -910,25 +1032,25 @@
           <methods>
             <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="4" hits="1" branch="false" />
+                <line number="4" hits="23" branch="false" />
               </lines>
             </method>
             <method name="get_Password" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="5" hits="1" branch="false" />
+                <line number="5" hits="22" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="4" hits="1" branch="false" />
-            <line number="5" hits="1" branch="false" />
+            <line number="4" hits="23" branch="false" />
+            <line number="5" hits="22" branch="false" />
           </lines>
         </class>
-        <class name="UserService.AuthorizationModel.UserModel" filename="D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\AuthorizationModel\UserModel.cs" line-rate="0" branch-rate="1" complexity="3">
+        <class name="UserService.AuthorizationModel.UserModel" filename="D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\AuthorizationModel\UserModel.cs" line-rate="0.666666666666667" branch-rate="1" complexity="3">
           <methods>
-            <method name="get_Username" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Username" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="4" hits="0" branch="false" />
+                <line number="4" hits="1" branch="false" />
               </lines>
             </method>
             <method name="get_Password" signature="()" line-rate="0" branch-rate="1" complexity="1">
@@ -936,63 +1058,63 @@
                 <line number="5" hits="0" branch="false" />
               </lines>
             </method>
-            <method name="get_Role" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Role" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="6" hits="0" branch="false" />
+                <line number="6" hits="1" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="4" hits="0" branch="false" />
+            <line number="4" hits="1" branch="false" />
             <line number="5" hits="0" branch="false" />
-            <line number="6" hits="0" branch="false" />
+            <line number="6" hits="1" branch="false" />
           </lines>
         </class>
-        <class name="UserService.Controllers.LoginController" filename="D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\Controllers\LoginController.cs" line-rate="0" branch-rate="0" complexity="9">
+        <class name="UserService.Controllers.LoginController" filename="D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\Controllers\LoginController.cs" line-rate="0.648148148148148" branch-rate="0.25" complexity="9">
           <methods>
-            <method name="RoleIDToRole" signature="(...)" line-rate="0" branch-rate="0" complexity="2">
+            <method name="RoleIDToRole" signature="(...)" line-rate="1" branch-rate="0.5" complexity="2">
               <lines>
-                <line number="43" hits="0" branch="false" />
-                <line number="44" hits="0" branch="true" condition-coverage="0% (0/2)" />
-                <line number="46" hits="0" branch="false" />
-                <line number="47" hits="0" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="44" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="46" hits="1" branch="false" />
+                <line number="47" hits="1" branch="false" />
               </lines>
             </method>
-            <method name="Login" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+            <method name="Login" signature="(...)" line-rate="0.888888888888889" branch-rate="1" complexity="1">
               <lines>
-                <line number="51" hits="0" branch="false" />
-                <line number="52" hits="0" branch="false" />
-                <line number="53" hits="0" branch="false" />
-                <line number="55" hits="0" branch="false" />
-                <line number="57" hits="0" branch="false" />
+                <line number="51" hits="2" branch="false" />
+                <line number="52" hits="2" branch="false" />
+                <line number="53" hits="2" branch="false" />
+                <line number="55" hits="1" branch="false" />
+                <line number="57" hits="1" branch="false" />
                 <line number="58" hits="0" branch="false" />
-                <line number="60" hits="0" branch="false" />
-                <line number="61" hits="0" branch="false" />
-                <line number="63" hits="0" branch="false" />
+                <line number="60" hits="4" branch="false" />
+                <line number="61" hits="2" branch="false" />
+                <line number="63" hits="2" branch="false" />
               </lines>
             </method>
-            <method name="AddAdmin" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+            <method name="AddAdmin" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="69" hits="0" branch="false" />
-                <line number="70" hits="0" branch="false" />
-                <line number="71" hits="0" branch="false" />
-                <line number="72" hits="0" branch="false" />
-                <line number="73" hits="0" branch="false" />
-                <line number="74" hits="0" branch="false" />
-                <line number="76" hits="0" branch="false" />
-                <line number="77" hits="0" branch="false" />
+                <line number="69" hits="2" branch="false" />
+                <line number="70" hits="2" branch="false" />
+                <line number="71" hits="2" branch="false" />
+                <line number="72" hits="1" branch="false" />
+                <line number="73" hits="2" branch="false" />
+                <line number="74" hits="1" branch="false" />
+                <line number="76" hits="1" branch="false" />
+                <line number="77" hits="2" branch="false" />
               </lines>
             </method>
-            <method name="AddUser" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+            <method name="AddUser" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="82" hits="0" branch="false" />
-                <line number="83" hits="0" branch="false" />
-                <line number="84" hits="0" branch="false" />
-                <line number="85" hits="0" branch="false" />
-                <line number="86" hits="0" branch="false" />
-                <line number="87" hits="0" branch="false" />
-                <line number="90" hits="0" branch="false" />
-                <line number="91" hits="0" branch="false" />
+                <line number="82" hits="3" branch="false" />
+                <line number="83" hits="3" branch="false" />
+                <line number="84" hits="3" branch="false" />
+                <line number="85" hits="2" branch="false" />
+                <line number="86" hits="2" branch="false" />
+                <line number="87" hits="1" branch="false" />
+                <line number="90" hits="2" branch="false" />
+                <line number="91" hits="3" branch="false" />
               </lines>
             </method>
             <method name="CheckUser" signature="(...)" line-rate="0" branch-rate="0" complexity="2">
@@ -1005,10 +1127,10 @@
                 <line number="103" hits="0" branch="false" />
               </lines>
             </method>
-            <method name="GenerateToken" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+            <method name="GenerateToken" signature="(...)" line-rate="0.142857142857143" branch-rate="1" complexity="1">
               <lines>
-                <line number="105" hits="0" branch="false" />
-                <line number="107" hits="0" branch="false" />
+                <line number="105" hits="1" branch="false" />
+                <line number="107" hits="1" branch="false" />
                 <line number="109" hits="0" branch="false" />
                 <line number="110" hits="0" branch="false" />
                 <line number="111" hits="0" branch="false" />
@@ -1023,59 +1145,59 @@
                 <line number="123" hits="0" branch="false" />
               </lines>
             </method>
-            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="35" hits="0" branch="false" />
-                <line number="36" hits="0" branch="false" />
-                <line number="37" hits="0" branch="false" />
-                <line number="39" hits="0" branch="false" />
-                <line number="40" hits="0" branch="false" />
+                <line number="35" hits="10" branch="false" />
+                <line number="36" hits="10" branch="false" />
+                <line number="37" hits="10" branch="false" />
+                <line number="39" hits="10" branch="false" />
+                <line number="40" hits="10" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="35" hits="0" branch="false" />
-            <line number="36" hits="0" branch="false" />
-            <line number="37" hits="0" branch="false" />
-            <line number="39" hits="0" branch="false" />
-            <line number="40" hits="0" branch="false" />
-            <line number="43" hits="0" branch="false" />
-            <line number="44" hits="0" branch="true" condition-coverage="0% (0/2)" />
-            <line number="46" hits="0" branch="false" />
-            <line number="47" hits="0" branch="false" />
-            <line number="51" hits="0" branch="false" />
-            <line number="52" hits="0" branch="false" />
-            <line number="53" hits="0" branch="false" />
-            <line number="55" hits="0" branch="false" />
-            <line number="57" hits="0" branch="false" />
+            <line number="35" hits="10" branch="false" />
+            <line number="36" hits="10" branch="false" />
+            <line number="37" hits="10" branch="false" />
+            <line number="39" hits="10" branch="false" />
+            <line number="40" hits="10" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="44" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="46" hits="1" branch="false" />
+            <line number="47" hits="1" branch="false" />
+            <line number="51" hits="2" branch="false" />
+            <line number="52" hits="2" branch="false" />
+            <line number="53" hits="2" branch="false" />
+            <line number="55" hits="1" branch="false" />
+            <line number="57" hits="1" branch="false" />
             <line number="58" hits="0" branch="false" />
-            <line number="60" hits="0" branch="false" />
-            <line number="61" hits="0" branch="false" />
-            <line number="63" hits="0" branch="false" />
-            <line number="69" hits="0" branch="false" />
-            <line number="70" hits="0" branch="false" />
-            <line number="71" hits="0" branch="false" />
-            <line number="72" hits="0" branch="false" />
-            <line number="73" hits="0" branch="false" />
-            <line number="74" hits="0" branch="false" />
-            <line number="76" hits="0" branch="false" />
-            <line number="77" hits="0" branch="false" />
-            <line number="82" hits="0" branch="false" />
-            <line number="83" hits="0" branch="false" />
-            <line number="84" hits="0" branch="false" />
-            <line number="85" hits="0" branch="false" />
-            <line number="86" hits="0" branch="false" />
-            <line number="87" hits="0" branch="false" />
-            <line number="90" hits="0" branch="false" />
-            <line number="91" hits="0" branch="false" />
+            <line number="60" hits="4" branch="false" />
+            <line number="61" hits="2" branch="false" />
+            <line number="63" hits="2" branch="false" />
+            <line number="69" hits="2" branch="false" />
+            <line number="70" hits="2" branch="false" />
+            <line number="71" hits="2" branch="false" />
+            <line number="72" hits="1" branch="false" />
+            <line number="73" hits="2" branch="false" />
+            <line number="74" hits="1" branch="false" />
+            <line number="76" hits="1" branch="false" />
+            <line number="77" hits="2" branch="false" />
+            <line number="82" hits="3" branch="false" />
+            <line number="83" hits="3" branch="false" />
+            <line number="84" hits="3" branch="false" />
+            <line number="85" hits="2" branch="false" />
+            <line number="86" hits="2" branch="false" />
+            <line number="87" hits="1" branch="false" />
+            <line number="90" hits="2" branch="false" />
+            <line number="91" hits="3" branch="false" />
             <line number="97" hits="0" branch="false" />
             <line number="99" hits="0" branch="false" />
             <line number="100" hits="0" branch="true" condition-coverage="0% (0/2)" />
             <line number="101" hits="0" branch="false" />
             <line number="102" hits="0" branch="false" />
             <line number="103" hits="0" branch="false" />
-            <line number="105" hits="0" branch="false" />
-            <line number="107" hits="0" branch="false" />
+            <line number="105" hits="1" branch="false" />
+            <line number="107" hits="1" branch="false" />
             <line number="109" hits="0" branch="false" />
             <line number="110" hits="0" branch="false" />
             <line number="111" hits="0" branch="false" />
@@ -1198,12 +1320,12 @@
             <line number="79" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="UserService.Controllers.RSATools" filename="D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\Controllers\LoginController.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="UserService.Controllers.RSATools" filename="D:\GeekBrains\My Git\FinalAtestationGB\MyAtestation\UserService\Controllers\LoginController.cs" line-rate="0.333333333333333" branch-rate="1" complexity="1">
           <methods>
-            <method name="GetPrivateKey" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="GetPrivateKey" signature="()" line-rate="0.333333333333333" branch-rate="1" complexity="1">
               <lines>
-                <line number="16" hits="0" branch="false" />
-                <line number="17" hits="0" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
                 <line number="19" hits="0" branch="false" />
                 <line number="20" hits="0" branch="false" />
                 <line number="21" hits="0" branch="false" />
@@ -1212,8 +1334,8 @@
             </method>
           </methods>
           <lines>
-            <line number="16" hits="0" branch="false" />
-            <line number="17" hits="0" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
             <line number="19" hits="0" branch="false" />
             <line number="20" hits="0" branch="false" />
             <line number="21" hits="0" branch="false" />
